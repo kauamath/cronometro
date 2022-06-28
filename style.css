@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+img {
+    height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#caixa-numeros {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    background: white;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.numeros {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.numero-verde {
+    color: #C5FB01;
+}
+
+#caixa-botoes {
+    /* centralizou por ser a caixa*/
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botoes {
+    color: #C5FB01;
+    background: white;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#reset{
+    color: black;
+}
+
+#stop{
+    color: red;
+}
+
+.ativo{
+    opacity: 0.5;
+}
